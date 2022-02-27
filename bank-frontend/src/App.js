@@ -12,7 +12,7 @@ function App() {
   const [customerAddress, setCustomerAddress] = useState(null);
   const [error, setError] = useState(null);
 
-  const contractAddress = '0xf333875f89B62AA14e7E009114B707ae1ED3830b';
+  const contractAddress = '0x543Dbf993615Ae088ec04a023477acFe22B1b34c';
   const contractABI = abi.abi;
 
   const checkIfWalletIsConnected = async () => {
